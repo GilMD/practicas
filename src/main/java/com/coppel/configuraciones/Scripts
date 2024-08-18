@@ -1,0 +1,39 @@
+INSERT INTO `paises`(`id_pais`, `nombre`) VALUES (1,'Argentina');
+INSERT INTO `paises`(`id_pais`, `nombre`) VALUES (2,'Estados Unidos');
+INSERT INTO `paises`(`id_pais`, `nombre`) VALUES (3,'Mexico');
+
+
+
+
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (1,'Afore Coppel','1');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (2,'Afore Coppel','2');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (3,'Afore Coppel','3');
+
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (4,'BanCoppel','1');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (5,'BanCoppel','2');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (6,'BanCoppel','3');
+
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (7,'Coppel','1');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (8,'Coppel','2');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`, `id_pais`) VALUES (9,'Coppel','3');
+
+
+// Tipo de mensaje
+INSERT INTO `tipo_mensajes`(`id_tipo_mensaje`, `color`, `nombre_tipo`) VALUES (1,'#0000FF','Informativo');
+INSERT INTO `tipo_mensajes`(`id_tipo_mensaje`, `color`, `nombre_tipo`) VALUES (2,'#FF0000','Error');
+INSERT INTO `tipo_mensajes`(`id_tipo_mensaje`, `color`, `nombre_tipo`) VALUES (3,'#00FF00','Exito');
+INSERT INTO `tipo_mensajes`(`id_tipo_mensaje`, `color`, `nombre_tipo`) VALUES (4,'#FFFF00','Precaución/Advertencia');
+
+//Empresas
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`) VALUES (1,'Afore Coppel');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`) VALUES (2,'BanCoppel');
+INSERT INTO `empresas`(`id_empresa`, `nombre_empresa`) VALUES (3,'Coppel');
+
+//Paises
+INSERT INTO `paises`(`id_pais`, `nombre_pais`) VALUES (1,'Argentina');
+INSERT INTO `paises`(`id_pais`, `nombre_pais`) VALUES (2,'Estados Unidos');
+INSERT INTO `paises`(`id_pais`, `nombre_pais`) VALUES (3,'Mexico');
+
+//Sistemas
+INSERT INTO `sistemas`(`id_sistema`, `nombre_sistema`) VALUES (1,'SAJ');
+INSERT INTO `sistemas`(`id_sistema`, `nombre_sistema`) VALUES (2,'SAJ Movil');
